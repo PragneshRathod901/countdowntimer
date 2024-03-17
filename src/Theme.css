@@ -1,0 +1,26 @@
+.primary{
+    color: white;
+
+}
+input.primary{
+    outline: none;
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+.secondary{
+    color: blueviolet;
+}
+.flex{
+    display: flex;
+}
+.f-column{
+    flex-direction: column;
+}
+.r-gap1{
+    row-gap: 1rem;
+}
+.r-gap0{
+    row-gap: 0.5rem;
+}
