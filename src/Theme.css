@@ -9,6 +9,18 @@ input.primary{
     border-radius: 8px;
     padding: 0.5rem;
 }
+input.primary:hover{
+    border: 2px solid rgb(197, 137, 253);
+    
+}
+input.primary:not(input[type="submit"]):focus{
+    border: 2px solid blueviolet;
+    
+}
+input[type="submit"].primary:active{
+    border: 2px solid blueviolet;
+    
+}
 .secondary{
     color: blueviolet;
 }
