@@ -1,0 +1,39 @@
+.timerPallate {
+    background-image: linear-gradient(45deg, #fc00ff 0%, #00dbde 77%);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    justify-content: space-between;
+}
+.stopButton{
+    outline: none;
+    /* background-image: linear-gradient(90deg, #fc00ff 0%, #00dbde 77%); */
+    border: 0px;
+    border-radius: 1rem;
+    align-self: center;
+    color: white;
+    padding: 0.2rem 1rem;
+   background-color: #00dbde;
+}
+.stopButton:hover{
+    background-color: #07fbff;
+
+}
+.stopButton:active{
+    background-color: #00e2e6;
+
+}
+@media (max-width:480px){
+    .timerPallate {
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        color: white;
+        font-size: 1rem;
+    }
+}

@@ -10,7 +10,10 @@ function CountdownForm({ dateTime, setDateTime, setCountDownTimerFn }) {
     setDateTime(new Date(e.target.value));
   };
   return (
-    <form className="flex f-column r-gap1" onSubmit={handleForm}>
+    <form
+      className="flex f-column r-gap1 align-item-centre"
+      onSubmit={handleForm}
+    >
       <input
         type="datetime-local"
         className="primary"
